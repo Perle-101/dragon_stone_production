@@ -45,7 +45,7 @@ if(isset($message)){
     </div>
     <div class="ccontainer">
         <!-- Replace with image of eco-friendly product collection (bamboo items, natural materials, plants) -->
-        <img alt="Collection of sustainable home products including bamboo utensils and natural décor items" class="image-self" src="images/eco-products-collection.jpg" style="margin-left: 30px;">
+        <img alt="Collection of sustainable home products including bamboo utensils and natural décor items" class="image-self" src="assets/curtains-1854110_1280.jpg" style="margin-left: 30px;">
         <div class="left">
             <h1 class="hh1" style="margin-left: 100px; margin-bottom: 30px">Explore Our Collection.</h1>
             <p class="pp" style="margin-left: 100px;">Browse through our sustainable product categories to find items that match your eco-conscious lifestyle. Click the button below to explore our full range of home essentials.</p>
@@ -63,7 +63,7 @@ if(isset($message)){
             </div>
         </div>
         <!-- Replace with image of natural, sustainable home interior with plants and eco-friendly furniture -->
-        <img alt="Beautifully styled sustainable home interior featuring natural materials and greenery" class="image-self" src="images/sustainable-living-space.jpg" style="margin-right: 100px">
+        <img alt="Beautifully styled sustainable home interior featuring natural materials and greenery" class="image-self" src="assets/energy-efficient-5019261_1280.jpg" style="margin-right: 100px">
     </div>
     <div class="ccontainer">
         <div class="left" style="margin: auto 200px;">

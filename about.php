@@ -58,7 +58,7 @@ if(isset($message)){
 <section class="about-us">
    <div class="about-container">
       <!-- Replace with image of the three founders or sustainable living scene -->
-      <img src="images/dragonstone-founders.jpg" alt="DragonStone founders - Aegon, Visenya, and Rhaenys" class="about-image">
+      <img src="assets/action-2277292_1280.jpg" alt="DragonStone founders - Aegon, Visenya, and Rhaenys" class="about-image">
       <div class="about-text">
          <h1>About DragonStone</h1>
          <p>At DragonStone, we believe that sustainable living shouldn't require sacrifice. Founded by three passionate advocates—Aegon, Visenya, and Rhaenys—DragonStone was born from a shared frustration with the difficulty of finding genuinely eco-friendly home products that are both stylish and affordable. We spent nearly a year researching suppliers, testing products, and building relationships with small-scale manufacturers who share our values of transparency, quality, and environmental responsibility.</p>

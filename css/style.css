@@ -70,7 +70,7 @@
 .outside-border {
   height: fit-content;
   background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)),
-    url("../images/sustainable-wood-texture.jpeg");
+    url("../assets/wind-mills-6928590_1280.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 30px;
@@ -196,7 +196,7 @@
   border-bottom-right-radius: 40px;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/sustainable-home-hero.jpeg");
+    url("../assets/yard-8254659_1280.jpg");
   background-size: cover;
   background-position: center;
   width: auto;
@@ -208,7 +208,7 @@
   border-bottom-right-radius: 40px;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/eco-home-banner.jpg");
+    url("../assets/bedroom-416062_1280.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -219,7 +219,7 @@
   border-bottom-right-radius: 40px;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/natural-materials-bg.jpg");
+    url("../images/2149871315.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -230,7 +230,7 @@
   border-bottom-right-radius: 40px;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/green-living-bg.jpeg");
+    url("../assets/Main_bckground.jpg");
   background-size: cover;
   background-position: center;
 }

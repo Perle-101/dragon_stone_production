@@ -1,8 +1,5 @@
 <header class="header">
-   <div class="flex">
-      <a href="index.php" class="logout-btn"> 
-         <img src="images/dragonstone-logo.png" alt="DragonStone Home">
-      </a>
+   <div class="flex">      
       <a href="home.php" class="logo">DragonStone</a>
       <nav class="navbar">
          <a href="home.php">Home</a>

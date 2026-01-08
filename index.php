@@ -151,7 +151,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
         <div class="ccontainer">
         <!-- Replace with image of sustainable home products (bamboo utensils, plants, natural decor) -->
-        <img alt="Sustainable home products display featuring natural materials and eco-friendly decor" class="image-self" src="images/sustainable-home-display.jpg" style="margin-left: 30px;">
+        <img alt="Sustainable home products display featuring natural materials and eco-friendly decor" class="image-self" src="/assets/chopsticks-932834_1280.jpg" style="margin-left: 30px;">
             <div class="left">
                    <h1 class="hh1" style="margin-left: 100px; margin-bottom: 30px">Embrace sustainable living.</h1>
                    <p class="pp" style="margin-left: 100px;">From cleaning supplies to home décor, explore our carefully selected range of eco-conscious products that make sustainable living effortless and beautiful.</p>
@@ -164,7 +164,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 <p class="pp" style="margin-left: 30px;">DragonStone was founded by three passionate advocates for sustainable living—Aegon, Visenya, and Rhaenys. Frustrated by the difficulty of finding genuinely eco-friendly home products that were both stylish and affordable, they spent a year researching suppliers and building relationships with ethical manufacturers. We believe that sustainable choices shouldn't require sacrifice. Our mission is to make eco-conscious living accessible, aspirational, and empowering for everyone who cares about our planet's future.</p>
             </div>
             <!-- Replace with image of natural home setting (plants, wooden furniture, sustainable materials) -->
-            <img alt="Beautiful eco-friendly home interior with natural materials and sustainable furniture" class="image-self" src="images/eco-home-interior.jpg" style="margin-right: 100px">
+            <img alt="Beautiful eco-friendly home interior with natural materials and sustainable furniture" class="image-self" src="/assets/room-1336497_1280.jpg" style="margin-right: 100px">
         </div>
 
         <div class="ccontainer">

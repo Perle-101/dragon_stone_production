@@ -2,10 +2,9 @@
 
    <div class="flex">
 
-      <a href="#" class="logo">Mopedi Store</a>
+      <a href="#" class="logo">DragonStone</a>
 
-      <nav class="navbar">
-         <!-- <a href="login.php">Login</a> -->
+      <nav class="navbar">         
          <button class="button" id="form-open">Login</button>
       </nav>
       
