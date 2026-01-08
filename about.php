@@ -19,7 +19,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>About - DragonStone</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -49,35 +49,34 @@ if(isset($message)){
 
 <div class="lban">
    <div class="start-nav">
-      <h1>About DragonStone</h1>
-      <p>Discover our mission to make sustainable living accessible and beautiful.</p>
+      <h1>About</h1>
+      <p>Keep yourself informed. Learn about us.</p>
    </div>
 </div>
 
 
 <section class="about-us">
    <div class="about-container">
-      <!-- Replace with image of the three founders or sustainable living scene -->
-      <img src="images/dragonstone-founders.jpg" alt="DragonStone founders - Aegon, Visenya, and Rhaenys" class="about-image">
+      <img src="images/pexels-christina-morillo-1181292.jpg" alt="About Us Image" class="about-image">
       <div class="about-text">
-         <h1>About DragonStone</h1>
-         <p>At DragonStone, we believe that sustainable living shouldn't require sacrifice. Founded by three passionate advocates—Aegon, Visenya, and Rhaenys—DragonStone was born from a shared frustration with the difficulty of finding genuinely eco-friendly home products that are both stylish and affordable. We spent nearly a year researching suppliers, testing products, and building relationships with small-scale manufacturers who share our values of transparency, quality, and environmental responsibility.</p>
-         <p>- Aegon, Visenya & Rhaenys.</p>
+         <h1>About Us</h1>
+         <p>At Mopedi Store, we believe that the right pair of shoes can transform not just your outfit, but your entire day. Founded in 2018, Mopedi Store is dedicated to providing a curated selection of high-quality footwear for every occasion. Our mission is to make shopping for shoes an enjoyable and seamless experience, offering a wide range of styles from trusted brands to suit every taste and preference.</p>
+         <p>- Tendamudzimu.</p>
       </div>
    </div>
 </section>
 
 <section class="our-story">
    <div class="story-container">
-      <h1>At DragonStone</h1>
-      <p>At DragonStone, we prioritize providing the highest quality sustainable products while minimizing environmental impact. We ensure that our eco-friendly goods are ethically sourced and delivered safely. We treat our customers, partners, and the planet with the respect they deserve. We practice transparency in our supply chain, support fair trade, and are committed to continuous improvement in our sustainability practices.</p>
+      <h1>At Mopedi Store</h1>
+      <p>At Mopedi store, we prioritise providing the best quality products at the lowest prices and ensuring that those products are delivered safely and quickly. We treat our customers with the respect and dignity they deserve. We practice good corporate governance and equality.</p>
    </div>
 </section>
 
 <section class="cccontact-us">
    <div class="cccontact-container">
-      <h1>Have Questions About Sustainable Living?</h1>
-      <p>We provide support to help you make eco-conscious choices for your home.</p>
+      <h1>If You Have More Questions Contact Us</h1>
+      <p>We provide a 24/7 hotline to help you with any queries that you may have.</p>
       <div class="ppphone-box">
          <i class="fas fa-phone-alt"></i> +27 11 648 2684
       </div>
@@ -86,88 +85,88 @@ if(isset($message)){
 
   <section class="our-commitment">
     <div class="commitment-container">
-        <h1>Our Commitment to Sustainability</h1>
-        <p class="commitment-intro">Environmental responsibility and customer satisfaction guide everything we do.</p>
-        <h2 style="color: #3d4a3a;">We are committed to providing:</h2>
-        <p style="color: #5a5a5a;"><strong>Genuinely Sustainable Products:</strong> Every item in our collection is carefully vetted for its environmental credentials. We partner with ethical manufacturers who prioritize renewable materials, minimal waste, and fair labor practices.</p>
-        <p style="color: #5a5a5a;"><strong>Transparency & Education:</strong> We believe in empowering our customers with knowledge. Each product includes detailed information about its materials, manufacturing process, and environmental impact. Our team is always ready to answer questions about sustainable living.</p>
-        <p style="color: #5a5a5a;"><strong>Ethical Sourcing:</strong> We work directly with small-scale manufacturers who share our values. From bamboo farmers to organic cotton producers, we ensure fair compensation and sustainable practices throughout our supply chain.</p>
-        <p style="color: #5a5a5a;"><strong>Minimal Packaging & Carbon-Neutral Shipping:</strong> We use recycled, biodegradable packaging materials and offset our shipping emissions. Our commitment extends beyond the products themselves to every aspect of our operations.</p>
+        <h1>Our Commitment</h1>
+        <p class="commitment-intro">Quality and customer satisfaction are at the heart of everything we do.</p>
+        <h2 style="color: #333;">We are committed to providing:</h2>
+        <p style="color: #333;"><strong>Exceptional Products:</strong> Each item in our store is chosen for its superior quality, style, and comfort. We partner with renowned brands and designers to bring you the best selection of shoes available.</p>
+        <p style="color: #333;"><strong>Outstanding Service:</strong> Our customer support team is here to assist you every step of the way. Whether you have a question about sizing, need help with your order, or want to provide feedback, we're always ready to help.</p>
+        <p style="color: #333;"><strong>Convenient Shopping:</strong> We offer a user-friendly shopping experience with detailed product descriptions, high-resolution images, and easy navigation. Our secure checkout process ensures your personal information is always protected.</p>
+        <p style="color: #333;"><strong>Fast Shipping and Easy Returns:</strong> We understand that getting your shoes quickly is important. That's why we strive to process orders efficiently and offer multiple shipping options. If you're not completely satisfied with your purchase, our hassle-free return policy makes it easy to exchange or return items.</p>
     </div>
   </section>
 <div class="container-counter">
     <div class="sstory-container">
         <div class="story-text">
             <h1>Our Story</h1>
-            <p>DragonStone started when Visenya, a former interior designer advocating for eco-conscious living, partnered with Aegon, a logistics expert passionate about ethical sourcing, and Rhaenys, a digital marketer committed to environmental activism. Together, they saw an opportunity to create a brand that educates and empowers consumers to make sustainable choices without compromising on style or quality. What began as a vision has grown into a thriving community of conscious consumers.</p>
+            <p>Mopedi Store started with a simple idea to create an online destination where shoe lovers could find everything they need in one place. What began as a small project has grown into a thriving business, thanks to our passionate team and loyal customers. We pride ourselves on our carefully selected inventory, which includes everything from classic staples to the latest trends in footwear.</p>
         </div>
         <div class="story-stats">
             <div class="stat">
-                <div class="counter" data-target="85">0</div>
-                <p>Ethical Manufacturers</p>
-            </div>
-            <div class="stat">
-                <div class="counter" data-target="150" data-suffix="%">0</div>
-                <p>Growth in Sustainable Product Range</p>
-            </div>
-            <div class="stat">
                 <div class="counter" data-target="500">0</div>
-                <p>Tons of Plastic Waste Prevented</p>
+                <p>Employees</p>
             </div>
             <div class="stat">
-                <div class="counter" data-target="8">0</div>
-                <p>Sustainability Certifications</p>
+                <div class="counter" data-target="60" data-suffix="%">0</div>
+                <p>Growth Increase since 2018</p>
+            </div>
+            <div class="stat">
+                <div class="counter" data-target="100">0</div>
+                <p>Number of Shareholders</p>
+            </div>
+            <div class="stat">
+                <div class="counter" data-target="13">0</div>
+                <p>Awards</p>
             </div>
         </div>
     </div>
 </div>
     <div class="ccontainer-counter">
-        <div class="counter-box" style="background-color: #6b8e23;">
-            <div class="counter" data-target="12000" style="color: white;">0</div>
-            <h2>Conscious Customers</h2>
-            <p>Join our growing community of eco-conscious consumers making a difference.</p>
+        <div class="counter-box" style="background-color: #f53333;">
+            <div class="counter" data-target="500" style="color: white;">0</div>
+            <h2>Loyal Customers</h2>
+            <p>Our customers are at the heart of everything we do.</p>
         </div>
-        <div class="counter-box" style="background-color: #f5f5dc;">
-            <div class="counter" data-target="45">0</div>
-            <h2 style="color: black;">Sustainability Experts</h2>
-            <p style="color: grey;">Product researchers, environmental consultants, supply chain specialists, and more.</p>
+        <div class="counter-box" style="background-color: #f9f9f9;">
+            <div class="counter" data-target="140">0</div>
+            <h2 style="color: black;">Efficient Specialists</h2>
+            <p style="color: grey;">UI developers, systems analysts, quality control specialists etc.</p>
         </div>
-        <div class="counter-box" style="background-color: #6b8e23;">
-            <div class="counter" data-target="30" style="color: white;">0</div>
-            <h2>Successful Partnerships</h2>
-            <p>We've built strong relationships with ethical manufacturers committed to sustainable practices.</p>
+        <div class="counter-box" style="background-color: #f53333;">
+            <div class="counter" data-target="20" style="color: white;">0</div>
+            <h2>Successful Business Plans</h2>
+            <p>We have about 45 successful business plans and only 18 failed once.</p>
         </div>
-        <div class="counter-box" style="background-color: #f5f5dc;">
-            <div class="counter" data-target="15">0</div>
-            <h2 style="color: black;">Environmental Initiatives</h2>
-            <p style="color: grey;">From tree planting programs to ocean cleanup partnerships, we invest in our planet's future.</p>
+        <div class="counter-box" style="background-color: #f9f9f9;">
+            <div class="counter" data-target="56">0</div>
+            <h2 style="color: black;">Investment Opportunities</h2>
+            <p style="color: grey;">Nike, Adidas, Puma, Gucci and Balenciaga are our investors, we are open to more investment opportunities.</p>
         </div>
     </div>
 
     <section class="our-story">
         <div class="story-container">
-            <h1>Join Our Movement</h1>
-            <p>DragonStone is more than a store—it's a movement toward sustainable living. Our customers are vital partners in creating positive environmental change. We love seeing how our products become part of your eco-conscious lifestyle. Share your DragonStone journey with us on social media using #DragonStoneGreen, and join our community of changemakers. Thank you for choosing DragonStone. Together, we're proving that sustainable living can be accessible, beautiful, and impactful. Your commitment to the planet inspires us every day, and we look forward to growing this movement with you.</p>
+            <h1 >Join our Community</h1>
+            <p>We are more than just a store, we are a community. Our customers are a vital part of our journey, and we love seeing how our shoes become a part of their lives. Share your Mopedi Store experience with us on social media using #MopediStyle, and join our growing family of happy customers.Thank you for choosing Mopedi Store. We are committed to continually improving and bringing you the best in footwear. Your satisfaction is our top priority, and we look forward to serving you for many years to come</p>
         </div>
     </section>
 
     <section class="bbox-container">
         <div class="new-container">
             <div class="box">
-                <h2>Founders & Visionaries</h2>
-                <p>Aegon (Logistics & Sourcing), Visenya (Product & Design), Rhaenys (Marketing & Community)</p>
+                <h2>Futurists</h2>
+                <p>Tendamudzimu Madavha, Rinae Mulaudzi, Hlulani Ngobeni, Lucky Sibanda</p>
             </div>
             <div class="box">
-                <h2>Sustainability Team</h2>
-                <p>Product researchers, environmental impact analysts, supply chain auditors, and certification specialists</p>
+                <h2>Strategists</h2>
+                <p>Jovani Kembel, Kamu Mudau, Lesly Juda, Michael Jacobs, Opie Windston</p>
             </div>
             <div class="box">
-                <h2>Customer Experience</h2>
-                <p>Support specialists, educational content creators, and community engagement coordinators</p>
+                <h2>Designers</h2>
+                <p>Jessie Handerson, Lionel Mauma, Chris Flavor</p>
             </div>
             <div class="box">
-                <h2>Operations & Partnerships</h2>
-                <p>Manufacturer liaisons, quality control experts, and logistics coordinators ensuring ethical practices</p>
+                <h2>Realisers</h2>
+                <p>Hank Thunder, Jabu Zulu, Mbali Thabile</p>
             </div>
         </div>
     </section>

@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login - DragonStone</title>
+        <title>Login</title>
         <link rel="stylesheet" href="css/indexstyle.css" />
         
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
@@ -74,8 +74,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         <div class="home">
             <div class="lban3">
                 <div class="start-nav">
-                    <h1>DragonStone</h1>
-                    <p>Welcome to DragonStone. Your destination for sustainable, eco-friendly home products that make a difference. Live beautifully, live responsibly.</p>
+                    <h1>Mopedi Store</h1>
+                    <p>Welcome To Mopedi Store. Shop now for the shoes that fit your style. Look stylish and in absolute comfort.</p>
                 </div>
             </div>
             <div class="form_container">
@@ -142,35 +142,33 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <div class="bbbody">
         <div class="ccontainer">
             <div class="left">
-                <h1 class="hh1">DragonStone offers a curated collection of sustainable home products from ethical manufacturers.</h1>
+                <h1 class="hh1">Mopedi Store sell a variety of shoes from different popular brands.</h1>
             </div>
             <div class="right">
-                 <p class="pp">Transform your living space with products that care for the planet. From bamboo kitchen essentials to organic cotton linens, we provide eco-friendly home goods that combine style, quality, and sustainability. Browse DragonStone and discover products that align with your values and enhance your home.</p>
+                 <p class="pp">Purchase shoes that fit your style. From a variety of shoe brands from registered manufacturers, we are able to provide you quality and stylish shoes that will make people turn their heads as you walk by. Browse the Mopedi store and find what suites you best.</p>
               </div>
         </div>
 
         <div class="ccontainer">
-        <!-- Replace with image of sustainable home products (bamboo utensils, plants, natural decor) -->
-        <img alt="Sustainable home products display featuring natural materials and eco-friendly decor" class="image-self" src="images/sustainable-home-display.jpg" style="margin-left: 30px;">
+        <img alt="Image" class="image-self" src="images/shoe8.jpg" style="margin-left: 30px;">
             <div class="left">
-                   <h1 class="hh1" style="margin-left: 100px; margin-bottom: 30px">Embrace sustainable living.</h1>
-                   <p class="pp" style="margin-left: 100px;">From cleaning supplies to home décor, explore our carefully selected range of eco-conscious products that make sustainable living effortless and beautiful.</p>
+                   <h1 class="hh1" style="margin-left: 100px; margin-bottom: 30px">Unleash your cravings.</h1>
+                   <p class="pp" style="margin-left: 100px;">From a variety of different brands, go crazy and find exactly what suits your needs.</p>
             </div>
         </div>
 
         <div class="ccontainer">
             <div class="left">
-                <h1 class="hh1" style="margin-left: 30px; margin-bottom: 30px">Who are we?</h1>
-                <p class="pp" style="margin-left: 30px;">DragonStone was founded by three passionate advocates for sustainable living—Aegon, Visenya, and Rhaenys. Frustrated by the difficulty of finding genuinely eco-friendly home products that were both stylish and affordable, they spent a year researching suppliers and building relationships with ethical manufacturers. We believe that sustainable choices shouldn't require sacrifice. Our mission is to make eco-conscious living accessible, aspirational, and empowering for everyone who cares about our planet's future.</p>
+                <h1 class="hh1" style="margin-left: 30px; margin-bottom: 30px">Who are we?.</h1>
+                <p class="pp" style="margin-left: 30px;">We are an established community of shoe lovers, we believe that shoes can change the impression people have of you. We want to ensure that our fellow shoe lovers can come here and find the shoes they like with low effort.</p>
             </div>
-            <!-- Replace with image of natural home setting (plants, wooden furniture, sustainable materials) -->
-            <img alt="Beautiful eco-friendly home interior with natural materials and sustainable furniture" class="image-self" src="images/eco-home-interior.jpg" style="margin-right: 100px">
+            <img alt="Image" class="image-self" src="images/shoe2.jpg" style="margin-right: 100px">
         </div>
 
         <div class="ccontainer">
             <div class="left" style="margin: auto 200px;">
-                <h1 class="hh1" style="margin-left: 30px; margin-bottom: 30px">Discover your impact.</h1>
-                <p class="pp" style="margin-left: 30px;">Explore our thoughtfully curated collection of sustainable home products designed to reduce waste and environmental impact. From compostable cleaning pods to bamboo kitchen essentials, recycled glass décor to organic cotton linens—find products that reflect your commitment to the planet. Every purchase supports small-scale manufacturers who share our values of transparency, quality, and environmental responsibility. We'd love to hear from you about your sustainable living journey and how we can better serve your eco-conscious lifestyle.</p>
+                <h1 class="hh1" style="margin-left: 30px; margin-bottom: 30px">Discover.</h1>
+                <p class="pp" style="margin-left: 30px;">Discover recommended and new products that are up for sell on Mopedi Store. Find what you like. Don't be afraid to purchase what suits you from our affordable and stylish list of shoes in the site. We love to hear from you about our business practices and how we can improve to ensure absolute customer satifaction.</p>
             </div>
         </div>
     </div>

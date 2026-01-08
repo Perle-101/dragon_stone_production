@@ -2,7 +2,7 @@
 session_start();
 @include 'config.php';
 @include 'functions.php';
-@include 'userHeader.php';
+@include 'loginheader.php';
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     $user_name = $_POST['user_name'];
@@ -74,10 +74,69 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         <div class="home">
             <div class="lban3">
                 <div class="start-nav">
-                    <h1>DragonStone Admin Panel</h1>
-                    <p>Welcome To DragonStone Store Admin Panel. Control Mopedi Store Admin Duties here</p>
+                    <h1>Mopedi Store Admin Panel</h1>
+                    <p>Welcome To Mopedi Store Admin Panel. Control Mopedi Store Admin Duties here</p>
                 </div>
-            </div>                
+            </div>
+            <div class="form_container">
+                <i class="uil uil-times form_close"></i>
+                <div class="form login_form">
+                    <form method="post" id="loginForm" >
+                        <h2>Admin Login</h2>
+
+                        <div class="input_box">
+                            <input type="text" placeholder="Enter your username" required name="user_name"><br><br>
+                            <i class="uil uil-user username"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="password" placeholder="Enter your password" required name="password"><br><br>
+                            <i class="uil uil-lock password"></i>
+                            <i class="uil uil-eye-slash pw_hide"></i>
+                        </div>
+                        <div class="option_field">
+                            <span class="checkbox">
+                                <input type="checkbox" id="check" />
+                                <label for="check">Remember me</label>
+                            </span>
+                            <a href="#" class="forgot_pw">Forgot password?</a>
+                        </div>
+                        <input class="button" id="loginButton" type="submit" value="login">Login Now</input><br><br>
+
+                        <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+                    </form>
+                </div>
+
+                <div class="form signup_form">
+                    <form id="signupForm" method="post">
+                        <h2>Admin Sign-up</h2>
+                        <div class="input_box">
+                            <input id="text" type="text" placeholder="Create a username" required name="user_name"><br><br>
+                            <i class="uil uil-user username"></i>
+                        </div>
+                        <div class="input_box">
+                            <input id="text" type="email" placeholder="Enter your email" required name="email"><br><br>
+                            <i class="uil uil-envelope-alt email"></i>
+                        </div>
+                        <div class="input_box">
+                            <input id="text" type="number" placeholder="Enter your phone number" required name="phone_number"><br><br>
+                            <i class="uil uil-phone phone_num"></i>
+                        </div>
+                        <div class="input_box">
+                            <input id="text" type="password" placeholder="Enter your password" required name="password"><br><br>
+                            <i class="uil uil-lock password"></i>
+                            <i class="uil uil-eye-slash pw_hide"></i>
+                        </div>
+                        <div class="input_box">
+                            <input id="text" type="password" placeholder="Confirm your password" required name="confirm_password"><br><br>
+                            <i class="uil uil-lock password"></i>
+                            <i class="uil uil-eye-slash pw_hide"></i>
+                        </div>
+
+                        <input class="button" type="submit" id="signupButton" value="signup">Signup Now</input><br><br>
+                        <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+                </div>
+                </form>
+            </div>
         </di>
     <script src="js/scripts.js"></script> 
     <script src="js/script.js"></script> 
