@@ -28,7 +28,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>gucci</title>
+   <title>Home Décor & Living</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -58,8 +58,8 @@ if(isset($message)){
 
 <div class="banner">
    <div class="start-nav">
-      <h1>Gucci</h1>
-      <p>Discover the best Gucci shoes for you. Make people turn their heads wherever you go!</p>
+      <h1>Home Décor & Living</h1>
+      <p>Discover the best Home Décor & Living for you</p>
    </div>
 </div>
 
@@ -69,7 +69,7 @@ if(isset($message)){
 
 <section class="products" >
    <div class="head-container">
-      <h1 class="heading">gucci shoes</h1>
+      <h1 class="heading">Home Décor & Living</h1>
       <h3>
          <button class="btn wishlist-btn" onclick="window.location.href='wishlist.php'">
             View Wishlist
@@ -80,7 +80,7 @@ if(isset($message)){
 
       <?php
       
-      $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Gucci'");
+      $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Home Décor & Living'");
       if(mysqli_num_rows($select_products) > 0){
          while($fetch_product = mysqli_fetch_assoc($select_products)){
       ?>
