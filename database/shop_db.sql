@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `admins` (
-  `id` int(225) NOT NULL,
+  `id` int(225) NOT NULL PRIMARY KEY,
   `user_name` varchar(225) NOT NULL,
   `email` varchar(225) NOT NULL,
   `phone_number` int(225) NOT NULL,
@@ -49,7 +49,7 @@ INSERT INTO `admins` (`id`, `user_name`, `email`, `phone_number`, `password`) VA
 --
 
 CREATE TABLE `cart` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL PRIMARY KEY,
   `image` varchar(225) NOT NULL,
   `name` varchar(225) NOT NULL,
   `price` decimal(10,0) NOT NULL,
@@ -66,11 +66,11 @@ INSERT INTO `cart` (`id`, `image`, `name`, `price`, `quantity`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `order`
+-- Table structure for table `orders`
 --
 
-CREATE TABLE `order` (
-  `id` int(225) NOT NULL,
+CREATE TABLE `orders` (
+  `id` int(225) NOT NULL PRIMARY KEY,
   `name` varchar(225) NOT NULL,
   `number` int(225) NOT NULL,
   `email` varchar(225) NOT NULL,
@@ -86,10 +86,10 @@ CREATE TABLE `order` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `order`
+-- Dumping data for table `orders`
 --
 
-INSERT INTO `order` (`id`, `name`, `number`, `email`, `method`, `flat`, `street`, `city`, `state`, `country`, `pin_code`, `total_products`, `total_price`) VALUES
+INSERT INTO `orders` (`id`, `name`, `number`, `email`, `method`, `flat`, `street`, `city`, `state`, `country`, `pin_code`, `total_products`, `total_price`) VALUES
 (1, 'Mashudu Lekalakala', 721758086, 'tendamadavha@gmail.com', 'cash on delivery', '491a maseru street meadowlands zone 7', 'MEADOWLANDS', 'Soweto', 'Gauteng', 'South Africa', 1852, '1', 1000);
 
 -- --------------------------------------------------------
@@ -99,7 +99,7 @@ INSERT INTO `order` (`id`, `name`, `number`, `email`, `method`, `flat`, `street`
 --
 
 CREATE TABLE `products` (
-  `id` int(225) NOT NULL,
+  `id` int(225) NOT NULL PRIMARY KEY,
   `name` varchar(225) NOT NULL,
   `price` decimal(10,0) NOT NULL,
   `description` varchar(225) NOT NULL,
@@ -122,7 +122,7 @@ INSERT INTO `products` (`id`, `name`, `price`, `description`, `category`, `image
 --
 
 CREATE TABLE `users` (
-  `id` int(225) NOT NULL,
+  `id` int(225) NOT NULL PRIMARY KEY,
   `user_name` varchar(225) NOT NULL,
   `password` varchar(225) NOT NULL,
   `email` varchar(225) NOT NULL,
@@ -144,7 +144,7 @@ INSERT INTO `users` (`id`, `user_name`, `password`, `email`, `phone_number`) VAL
 --
 
 CREATE TABLE `wishlist` (
-  `id` int(225) NOT NULL,
+  `id` int(225) NOT NULL PRIMARY KEY,
   `name` varchar(225) NOT NULL,
   `price` decimal(10,0) NOT NULL,
   `image` varchar(225) NOT NULL,
@@ -158,46 +158,6 @@ CREATE TABLE `wishlist` (
 
 INSERT INTO `wishlist` (`id`, `name`, `price`, `image`, `description`, `category`) VALUES
 (1, 'produt', 1000, 'BPLZ8681.JPG', '444', 'Recommended');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `admins`
---
-ALTER TABLE `admins`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `cart`
---
-ALTER TABLE `cart`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `order`
---
-ALTER TABLE `order`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `products`
---
-ALTER TABLE `products`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `wishlist`
---
-ALTER TABLE `wishlist`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -216,9 +176,9 @@ ALTER TABLE `cart`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `order`
+-- AUTO_INCREMENT for table `orders`
 --
-ALTER TABLE `order`
+ALTER TABLE `orders`
   MODIFY `id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
