@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/config.php';
+@include 'config.php';
 
 if(isset($_POST['id'])){
    $product_id = $_POST['id'];

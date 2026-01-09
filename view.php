@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/config.php';
+@include 'config.php';
 
 if(isset($_GET['id'])){
     $product_id = $_GET['id'];
