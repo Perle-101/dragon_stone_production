@@ -1,6 +1,6 @@
 <?php
 // Include database configuration
-@include 'config.php';
+require_once __DIR__ . '/config.php';
 
 /*
 |--------------------------------------------------------------------------

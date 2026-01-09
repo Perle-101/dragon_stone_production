@@ -1,8 +1,8 @@
 <?php
 session_start();
-@include 'config.php';
-@include 'functions.php';
-@include 'loginheader.php';
+@include __DIR__ . '/config.php';
+@include __DIR__ . '/functions.php';
+@include __DIR__ . '/loginheader.php';
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     $user_name = $_POST['user_name'];

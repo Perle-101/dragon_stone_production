@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config.php';
 // Database Configuration from Environment Variables
 $host = getenv('DB_HOST');
 $port = getenv('DB_PORT');
