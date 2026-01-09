@@ -1,9 +1,5 @@
 {
   "require": {
-    "php": "^8.0",
-    "ext-mysqli": "*"
-  },
-  "require-dev": {
-    "vercel/php": "^0.5.0"
+    "php": "^8.0"
   }
 }
